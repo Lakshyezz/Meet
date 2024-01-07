@@ -19,11 +19,12 @@
 body {
   padding: 10px 80px;
   margin: auto;
-  color: rgb(var(--foreground-rgb)); 
+  color: #f2f2f2;
+  /* rgb(var(--foreground-rgb));  */
    background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); 
 }
