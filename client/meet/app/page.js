@@ -1,17 +1,31 @@
 import Image from 'next/image'
 import Navbar from './components/Navbar/Navbar'
 import Hero from './components/Hero/Hero'
+import Auth from './components/Auth/Auth'
+import { Person } from '@mui/icons-material'
+import { Routes, Route } from 'react-router'
 
 
 export default function Home() {
   return (
-    <>
+    <div className='wrapper'>
       <Navbar/>
-      <Hero/>
-    </>
+      {/* <Hero/> */}
+      <Auth/>
+      {/* <Routes>
+        <Route />
+      </Routes> */}
+    </div>
     )
 }
 
+
+/* 
+  Routes:
+  '/auth', '/' : Auth , Homepage
+  '/meet' : Meet
+
+*/
 
 
 

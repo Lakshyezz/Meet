@@ -16,9 +16,14 @@
   }
 }
 
+
+
 body {
   padding: 10px 80px;
   margin: auto;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: betw; */
   color: #f2f2f2;
   /* rgb(var(--foreground-rgb));  */
    background: linear-gradient(
