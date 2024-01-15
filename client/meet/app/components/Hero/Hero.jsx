@@ -1,6 +1,7 @@
 'use client'
 import React, { useState } from 'react'
-import '../Hero/hero.scss'
+import './hero.scss'
+import MeetingRoomIcon from '@mui/icons-material/MeetingRoom';
 
 const Hero = () => {
 
@@ -23,8 +24,12 @@ const Hero = () => {
         <div className='new-meeting-enter-code-div'>
           <button onClick={handleMeetingClick}>
               <span className="material-icons">video_call</span> 
-              New Meeting</button>
-            <input type='text' value={code} onChange={handleCodeChange}  placeholder='Enter a code'/>
+              New Meeting
+          </button>
+         <div className='input-div'>
+          <MeetingRoomIcon/>
+          <input type='text' value={code} onChange={handleCodeChange}  placeholder='Enter a code'/>
+         </div>
         </div>
       </div>
       <div className='right-side'>
